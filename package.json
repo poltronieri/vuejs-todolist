@@ -1,0 +1,46 @@
+{
+  "name": "vuejs-todolist",
+  "version": "0.0.1",
+  "description": "A simple ToDo List app, made with VueJS",
+  "main": "main.js",
+  "author": "poltronieri",
+  "license": "MIT",
+  "repository": "https://github.com/poltronieri/vuejs-todolist",
+  "scripts": {
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
